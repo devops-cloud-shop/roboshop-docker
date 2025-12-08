@@ -6,7 +6,7 @@ services:
     image: redis:7.0
     container_name: redis
   mysql:
-    image: mysql:8.0
+    image: mysql:v1
     container_name: mysql
   rabbitmq:
     image: rabbitmq:3
